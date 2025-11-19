@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/profile-photo.jpeg";
 
 export const Hero = () => {
   return (
@@ -7,10 +8,12 @@ export const Hero = () => {
       <div className="max-w-6xl w-full mx-auto text-center space-y-8">
         <div className="relative inline-block">
           <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-primary to-secondary p-1 animate-pulse">
-            <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-              <div className="w-44 h-44 rounded-full bg-muted flex items-center justify-center text-6xl font-bold text-primary">
-                NA
-              </div>
+            <div className="w-full h-full rounded-full bg-background p-1 flex items-center justify-center">
+              <img 
+                src={profilePhoto} 
+                alt="Neha Alla" 
+                className="w-full h-full rounded-full object-cover"
+              />
             </div>
           </div>
         </div>
