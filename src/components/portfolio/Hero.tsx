@@ -7,7 +7,7 @@ export const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/5 via-background to-secondary/5 px-4 py-20">
       <div className="max-w-6xl w-full mx-auto text-center space-y-8">
         <div className="relative inline-block">
-          <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-primary to-secondary p-1 animate-pulse">
+          <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-primary to-secondary p-1">
             <div className="w-full h-full rounded-full bg-background p-1 flex items-center justify-center">
               <img 
                 src={profilePhoto} 

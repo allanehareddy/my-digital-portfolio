@@ -42,7 +42,7 @@ export const Education = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Award className="h-6 w-6 text-primary" />
-                Class XII (HSC)
+                Class XII (CBSE)
               </CardTitle>
               <CardDescription>New Horizon Public School, Khanda Colony, New Panvel</CardDescription>
             </CardHeader>
@@ -67,7 +67,7 @@ export const Education = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Award className="h-6 w-6 text-primary" />
-                Class X (SSC)
+                Class X (CBSE)
               </CardTitle>
               <CardDescription>New Horizon Public School, Khanda Colony, New Panvel</CardDescription>
             </CardHeader>

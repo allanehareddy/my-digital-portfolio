@@ -9,7 +9,7 @@ export const Achievements = () => {
       award: "1st Prize",
       description: "As team leader, won 1st prize for designing and presenting a Smart Plant Monitoring System integrating IoT sensors with cloud-based analytics to enable real-time plant health tracking and resource optimization.",
       link: "https://ieeexplore.ieee.org/document/10575109",
-      certificate: "/documents/certificate-1.pdf"
+      
     },
     {
       title: "Strategitech Ideathon (SPIT)",

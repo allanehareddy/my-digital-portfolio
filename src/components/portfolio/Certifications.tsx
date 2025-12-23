@@ -21,7 +21,7 @@ export const Certifications = () => {
       title: "Wipro TalentNext Java Full Stack Certification",
       issuer: "Wipro",
       date: "2024",
-      certificate: null
+      certificate: "/documents/J_250480070_Neha Alla.pdf"
     }
   ];
 
